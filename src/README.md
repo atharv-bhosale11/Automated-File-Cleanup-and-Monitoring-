@@ -2,9 +2,9 @@
 
 This directory contains the core Python implementation of the **Automated File Cleanup and Monitoring** system.
 
-## DirectoryHealthMonitor.py
+## filecleanup.py
 
-`DirectoryHealthMonitor.py` is the main application responsible for monitoring a specified directory, identifying empty files, removing them automatically, and generating detailed execution logs.
+`filecleanup.py` is the main application responsible for monitoring a specified directory, identifying empty files, removing them automatically, and generating detailed execution logs.
 
 ### Responsibilities
 
@@ -136,13 +136,13 @@ Ctrl + C
 Run the application by providing the directory path as a command-line argument:
 
 ```bash
-python DirectoryHealthMonitor.py <directory_path>
+python filecleanup.py <directory_path>
 ```
 
 Example:
 
 ```bash
-python DirectoryHealthMonitor.py D:\TestDirectory
+python filecleanup.py D:\TestDirectory
 ```
 
 ## Source Code Design
