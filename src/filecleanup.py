@@ -14,8 +14,8 @@ def DirectoryScanner(DirName):
         fobj = open(LogFileName,"w")
 
         fobj.write(Border +"\n")
-        fobj.write("This is a log file created by Marvellous Automation\n")
-        fobj.write("This is Directory Cleaner Script\n")
+        fobj.write("Automated File Cleanup and Monitoring\n")
+        fobj.write("Execution Log\n")
         fobj.write(Border +"\n")
         Ret = False
 
@@ -77,13 +77,13 @@ def DirectoryScanner(DirName):
         fobj.write("Files Deleted           :"+str(DeletedFileCount) + "\n")
         fobj.write("Files Failed            :"+str(FailedFileCount) + "\n")
         fobj.write("Execution Time          :"+str(round(ExceutionTime, 2)) + " seconds\n")
-        fobj.write("Completed!!!!!!!!!!!\n")
+        fobj.write("Status                  : SUCCESS\n")
         
         fobj.write(Border + "\n")
 
         fobj.close()
 
-        print("Log File Created:  ",LogFileName)
+        print("Log File Created         : ",LogFileName)
     
     except Exception as e:
         print("Unexpedted Error: ",e)
@@ -93,7 +93,7 @@ def main():
     Border = "-"*52
     print(Border)
     print("---------------------Automation Suite---------------")
-    print(Border)
+    print(Border+"\n")
 
     if(len(sys.argv)!=2):
         print("Invalid number of arguments")
@@ -102,7 +102,7 @@ def main():
 
     DirectoryName = sys.argv[1]
 
-    print("Directory to Scan: ",DirectoryName)
+    print("Directory to Scan        : ",DirectoryName)
 
     schedule.every(1).minutes.do(DirectoryScanner, DirectoryName)
     
@@ -111,10 +111,10 @@ def main():
             schedule.run_pending()
             time.sleep(1)
     except KeyboardInterrupt:
-        print("Automated-File-Cleanup-and-Monitoring- stopped by the user")
+        print("Automated-File-Cleanup-and-Monitoring- stopped by the user"+"\n")
 
     print(Border)
-    print("---------------------Automation Suite Ends-----------")
+    print("--------------------Automation Suite Ends-----------")
     print(Border)
 
 if __name__ == "__main__":
