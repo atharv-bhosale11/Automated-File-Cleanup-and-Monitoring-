@@ -1,0 +1,85 @@
+----------------------------------------------------
+Automated File Cleanup and Monitoring
+Execution Log
+----------------------------------------------------
+Deleted File: Data\A.java
+Deleted File: Data\AccessSpecifier.py
+Deleted File: Data\Assignment17_Q1.py
+Deleted File: Data\B.txt
+Deleted File: Data\C.txt
+Deleted File: Data\D.txt
+Deleted File: Data\Demo.txt
+Deleted File: Data\Encapsulation.py
+Deleted File: Data\File-1KiDM.xls
+Deleted File: Data\File-4GpNE.txt
+Deleted File: Data\File-60NpV.pdf
+Deleted File: Data\File-6Ma27.pdf
+Deleted File: Data\File-7W3Xe.doc
+Deleted File: Data\File-8ufaD.xls
+Deleted File: Data\File-dKDy3.xls
+Deleted File: Data\File-fecWD.xls
+Deleted File: Data\File-FgSnd.doc
+Deleted File: Data\File-FJR1g.doc
+Deleted File: Data\File-FoA8O.xls
+Deleted File: Data\File-FQwXv.doc
+Deleted File: Data\File-gkBxG.txt
+Deleted File: Data\File-GryKa.txt
+Deleted File: Data\File-h1JNf.txt
+Deleted File: Data\File-hBoOT.txt
+Deleted File: Data\File-I8uFo.doc
+Deleted File: Data\File-iD0n9.doc
+Deleted File: Data\File-IDnkW.xls
+Deleted File: Data\File-iN9oV.pdf
+Deleted File: Data\File-InVD7.xls
+Deleted File: Data\File-IOMGp.pdf
+Deleted File: Data\File-iPNZt.txt
+Deleted File: Data\File-IWvgW.pdf
+Deleted File: Data\File-jCicG.doc
+Deleted File: Data\File-lpYaK.xls
+Deleted File: Data\File-lwrts.xls
+Deleted File: Data\File-NnZE7.txt
+Deleted File: Data\File-nZvSh.doc
+Deleted File: Data\File-OnwAz.pdf
+Deleted File: Data\File-p7zzK.doc
+Deleted File: Data\File-pOwq0.doc
+Deleted File: Data\File-sciLy.txt
+Deleted File: Data\File-SDQ0u.pdf
+Deleted File: Data\File-SYkW6.pdf
+Deleted File: Data\File-tEf5H.pdf
+Deleted File: Data\File-Tv7VP.xls
+Deleted File: Data\File-Vjsb4.txt
+Deleted File: Data\File-vV9MH.txt
+Deleted File: Data\File-wgKHp.pdf
+Deleted File: Data\Hello.txt
+Deleted File: Data\Hey.txt
+Deleted File: Data\main.py
+Deleted File: Data\program351.c
+Deleted File: Data\program494.c
+Deleted File: Data\program654.java
+Deleted File: Data\program934.java
+Deleted File: Data\X.py.txt
+Deleted File: Data\Y.py.txt
+Deleted File: Data\Z.py.txt
+Deleted File: Data\Demo\Marvellous_2026-02-07_18-59-38.log
+Deleted File: Data\Doc_0KB\File-7W3Xe.doc
+Deleted File: Data\Doc_0KB\File-FgSnd.doc
+Deleted File: Data\Doc_0KB\File-FJR1g.doc
+Deleted File: Data\Doc_0KB\File-FQwXv.doc
+Deleted File: Data\Doc_0KB\File-I8uFo.doc
+Deleted File: Data\Doc_0KB\File-iD0n9.doc
+Deleted File: Data\Doc_0KB\File-jCicG.doc
+Deleted File: Data\Doc_0KB\File-nZvSh.doc
+Deleted File: Data\Doc_0KB\File-p7zzK.doc
+Deleted File: Data\Doc_0KB\File-pOwq0.doc
+
+----------------------------------------------------
+EXECUTION SUMMARY
+----------------------------------------------------
+Directory Scanned       :Data
+Total Files Scanned     :103
+Empty Files Found       :69
+Files Deleted           :69
+Files Failed            :0
+Execution Time          :0.08 seconds
+Status                  : SUCCESS
+----------------------------------------------------
