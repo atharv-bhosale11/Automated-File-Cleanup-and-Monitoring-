@@ -92,7 +92,7 @@ def DirectoryScanner(DirName):
 def main():
     Border = "-"*52
     print(Border)
-    print("--------------Atharv Automation Suite---------------")
+    print("---------------------Automation Suite---------------")
     print(Border)
 
     if(len(sys.argv)!=2):
@@ -111,7 +111,7 @@ def main():
         time.sleep(1)
 
     print(Border)
-    print("--------------Atharv Automation Suite---------------")
+    print("---------------------Automation Suite---------------")
     print(Border)
 
 if __name__ == "__main__":
