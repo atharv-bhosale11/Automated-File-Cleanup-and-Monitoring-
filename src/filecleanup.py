@@ -107,6 +107,9 @@ def main():
     schedule.every(1).minutes.do(DirectoryScanner, DirectoryName)
     
     try:
+        print("Automated File Cleanup and Monitoring is running...")
+        print("Press Ctrl + C to stop.\n")
+        
         while True:
             schedule.run_pending()
             time.sleep(1)
