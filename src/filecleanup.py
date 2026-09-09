@@ -97,7 +97,7 @@ def main():
 
     if(len(sys.argv)!=2):
         print("Invalid number of arguments")
-        print("Please!! Specify the Name of Directoru")
+        print("Please!! Specify the Name of Directory")
         return
 
     DirectoryName = sys.argv[1]
@@ -105,13 +105,16 @@ def main():
     print("Directory to Scan: ",DirectoryName)
 
     schedule.every(1).minutes.do(DirectoryScanner, DirectoryName)
-
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
+    
+    try:
+        while True:
+            schedule.run_pending()
+            time.sleep(1)
+    except KeyboardInterrupt:
+        print("Automated-File-Cleanup-and-Monitoring- stopped by the user")
 
     print(Border)
-    print("---------------------Automation Suite---------------")
+    print("---------------------Automation Suite Ends-----------")
     print(Border)
 
 if __name__ == "__main__":
